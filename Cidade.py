@@ -8,6 +8,3 @@ class Cidade:
     def addCidadeAdjacente(self, cidade):
         self.adjacentes.append(cidade)
         
-    
-c = Cidade('Teste')
-

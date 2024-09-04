@@ -83,10 +83,3 @@ class Mapa:
     tresBarras.addCidadeAdjacente(Adjacente(canoinhas))    
     
 mapa = Mapa()
-
-mapa.portoUniao.nome
-mapa.portoUniao.visitado
-mapa.portoUniao.adjacentes
-
-for i in range(len(mapa.portoUniao.adjacentes)):
-    print(mapa.portoUniao.adjacentes[i].cidade.nome)
